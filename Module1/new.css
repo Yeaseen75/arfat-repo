@@ -1,14 +1,93 @@
-.a{
-    color: rgb(10, 91, 241);
-    text-align:center;
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 50px;
  }
- .b{
-     color: rgb(192, 9, 9);
-     font-size: medium;
-     text-align: center;
- }
- .abc{
-     border: 5px dotted yellow ;
-     border-radius: 10px;
-     margin: 0% 20% 20% 20%;
- }
+span{
+    color: rgba(185, 13, 13, 0.829);
+}
+.container{
+    display: flex;
+    padding-left: 5%;
+}
+.one{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    text-align: justify;
+}
+.two{
+    width:5%;
+    padding-top:4%;
+    padding-left: 8%;
+   }
+  .h2{
+      text-decoration:underline rgba(185, 13, 13, 0.829);
+     
+  }
+  .button{
+   text-decoration:none;
+   color:white;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px 40px;
+   background-image: linear-gradient(rgba(185, 13, 13, 0.829),tomato);
+    
+}
+.main{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0px;
+}
+.A-Main{
+    display: flex;
+    margin-top:10%;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+
+}
+.one a{
+  margin-left: 5%;
+  text-align: justify;
+}
+.three{
+   padding-left: 5%;
+    margin-right: 5%;
+}
+.font{
+    font-weight: 200;
+    font-style: normal;
+}
+.first{
+    width:50%;
+    box-shadow: 10px 10px 40px gray ;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.h{
+    font-size:40px ;
+}
+.h3{
+    color:rgba(185, 13, 13, 0.829) ;
+}
+.Experiences{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#old-Experiences{
+    border-left: 7px solid;
+    border-color:rgba(185, 13, 13, 0.829) ;
+    border-image-slice:1;
+}
+#NEW-Experiences{
+    border-left: 7px solid;
+    border-color:rgba(185, 13, 13, 0.829) ;
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+}
